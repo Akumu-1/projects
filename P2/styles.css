@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  padding: 30px 30px 40px 30px;
+}
+
+.wrap {
+  display: flex;
+  min-width: 60px;
+}
+
+.icon-1 a {
+  display: flex;
+}
+
+.icon-1 span {
+  display: block;
+  width: 4px;
+  background-color: black;
+  height: 28px;
+  margin-right: 4px;
+}
+
+.icon-2 span {
+  display: block;
+  width: 28px;
+  background-color: black;
+  height: 4px;
+  margin-bottom: 4px;
+}
+
+.icon-1 span:last-child,
+.icon-2 span:last-child {
+  margin-bottom: 0;
+}
+.orange {
+  color: #ff764d;
+}
+.blue {
+  color: blue;
+}
+
+header nav {
+  padding-top: 5px;
+  margin-left: 60px;
+}
+
+.cap {
+  margin-left: 15vw;
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.flex ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav2 {
+  padding: 30px;
+  /* position: sticky; */
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+}
+.nav2 a {
+  font-size: 18px;
+}
+
+.s1 {
+  padding: 0 8.3vw 15vh 8.3vw;
+}
+
+.s1-bg {
+  padding: 35vh 0;
+  background-image: url(images/header.avif);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.s1-bg h1 {
+  font-size: 4rem;
+  cursor: default;
+}
+
+.s1-text {
+  margin: 0 8.3vw;
+  margin-top: 8.3vw;
+  text-align: left;
+}
+
+.s1 h2 {
+  margin-bottom: 3vh;
+}
+
+.s1 a {
+  font-size: 1.2rem;
+  color: blue;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.s2 {
+  position: relative;
+  height: 62vw;
+}
+
+.s2-bg {
+  width: 58vw;
+  background-color: #FBFFA7;
+  position: absolute;
+  right: 0;
+  height: 62vw;
+}
+
+.s2-right-img {
+  width: 33vw;
+  height: 25vw;
+  background-image: url(images/photo-2.jpg);
+  background-size: cover;
+  position: absolute;
+  right: 8vw;
+  top: 16.5vw;
+}
+
+.s2-left-img {
+  position: absolute;
+  top: 8.5vw;
+  left: 8vw;
+  background-image: url(images/photo-1.jpg);
+  height: 42vw;
+  width: 42vw;
+  background-size: cover;
+}
+
+.s3 {
+  padding: 20vh 16vw;
+}
+
+.s3 figure {
+  margin: 120px 0;
+}
+
+.s3 iframe {
+  display: block;
+  width: 100%;
+  height: 502px;
+}
+
+.s3 figcaption {
+  padding: 15px;
+}
+
+.s4-left {
+  width: 58vw;
+  background-color: #b6ffc0;
+  padding: 10vw 20vw 10vw 8vw;
+}
+
+.s4-left-up {
+  width: 33vw;
+  height: 25vw;
+  background-image: url(images/photo-3.jpg);
+  background-size: cover;
+  margin-bottom: 10vw;
+}
+
+.s4-left-down {
+  width: 33vw;
+  height: 25vw;
+  background-image: url(images/photo-4.jpg);
+  background-size: cover;
+}
+
+.s4 {
+  position: relative;
+}
+
+.s4-right {
+  background-image: url(images/photo-5.jpg);
+  background-size: cover;
+  width: 41vw;
+  height: 41vw;
+  position: absolute;
+  top: 22vw;
+  right: 5vw;
+}
+
+.s5 {
+  padding: 15vh 0;
+}
+
+.s5 h2,
+.s5 p {
+  margin: 0 15vw;
+}
+
+.s5-img {
+  width: auto;
+  margin: 15vh 8vw;
+}
+.s5 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.s5 h2 {
+  margin-bottom: 3vh;
+  font-size: 1.25rem;
+}
+
+.s5-p,
+.s5 p {
+  margin-bottom: 3vh;
+  font-size: 1rem;
+}
+
+.s6 {
+  position: relative;
+}
+
+.s6-mid {
+  background-color: rgb(213, 179, 255);
+  width: 67vw;
+  height: 56vw;
+  margin-left: 16.5vw;
+}
+
+.s6-img-left {
+  background-image: url(images/photo-6-a.jpg);
+  background-size: cover;
+  width: 28vw;
+  height: 25vw;
+  position: absolute;
+  top: 14vw;
+  left: 8.25vw;
+}
+
+.s6-img-right {
+  background-image: url(images/photo-7.jpg);
+  background-size: cover;
+  width: 41vw;
+  height: 41vw;
+  position: absolute;
+  top: 7vw;
+  right: 0;
+}
+
+.s6-text {
+  padding: 15vh 15vw;
+}
+.s6-text h2 {
+  font-size: 1.25rem;
+  margin-bottom: 3vh;
+}
+.s6-text p {
+  font-size: 1rem;
+}
+
+.s6-last-img {
+  background-image: url(images/photo-8.jpg);
+  margin: 0 8vw;
+  background-size: cover;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+
+.s6-last-txt {
+  background-color: rgb(177, 197, 255);
+  margin: 0 8vw;
+}
+
+.s6-last h2 {
+  padding: 18vh 10vw;
+}
+
+.s6-last a {
+  font-size: 1.25rem;
+}
+
+.s6-last {
+  padding: 15vh 0;
+  border-bottom: 1px solid lightgray;
+}
+
+footer {
+  padding: 15vh 8vw;
+  display: grid;
+  grid-template-rows: 17vh 35vh 35vh 17vh;
+  grid-template-columns: 25vw 25vw 34vw;
+  grid-template-areas:
+    "title title title"
+    "about ed sign"
+    "com lan lan"
+    "con con con";
+}
+
+footer .title {
+  grid-area: title;
+}
+
+footer .about {
+  grid-area: about;
+}
+
+footer .ed {
+  grid-area: ed;
+}
+
+footer .sign {
+  grid-area: sign;
+}
+
+footer .com {
+  grid-area: com;
+}
+
+footer .lan {
+  grid-area: lan;
+}
+
+footer .con {
+  grid-area: con;
+}
+
+footer .about a {
+  width: 2rem;
+  height: 2rem;
+}
+footer img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+footer h3,
+footer p {
+  font-size: 1rem;
+}
+
+footer .con {
+  display: flex;
+  justify-content: space-between;
+}
+footer .con p {
+  font-size: 0.8rem;
+}
+
+.flright {
+  margin-left: 50px;
+}
+
+.bttsn {
+  display: flex;
+}
+
+.bttsn button {
+  color: white;
+  background-color: blue;
+  border: none;
+  width: 30%;
+  height: 6vh;
+}
+input {
+  padding: 15px;
+  border: none;
+  width: 70%;
+  height: 6vh;
+  background-color: rgb(231, 231, 231);
+}
+
+select {
+  background-color: rgb(231, 231, 231);
+  border: none;
+  width: 10vw;
+  height: 7vh;
+  padding: 0 15px;
+}
+header button {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  header button {
+    display: revert;
+    border: none;
+    background-color: inherit;
+    margin-left: 30px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header button::after {
+    content: "⏷";
+    transform: scale(0.5);
+  }
+
+  header button:focus::after {
+    content: "⏶";
+  }
+
+  footer{
+    display: initial;
+  }
+
+  footer .con{
+    display: initial;
+  }
+}
